@@ -1,0 +1,46 @@
+name: AccessRequest
+description: A request form to access the SDR shared environment. This issue requires approval from TransCelerate BioPharma before resolution.
+title: "[AccessRequest]:"
+labels: ["AccessRequest"]
+assignees:
+  - SushmitabSinha
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this access request form!
+  - type: input
+    id: UserName
+    attributes:
+      label: Email ID
+      description: Provide user email id.
+      placeholder: example- user@xyz.com
+    validations:
+      required: true
+  - type: input
+    id: CompanyName
+    attributes:
+      label: Company Name
+      description: Provide user company name
+      placeholder: example- xyz
+    validations:
+      required: true
+  - type: dropdown
+    id: Type_of_Access
+    attributes:
+      label: What type of access?
+      description: Type of access needed for the user in SDR
+      options:
+        - SDR UI Access
+        - SDR API Access
+    validations:
+      required: true
+  - type: input
+    id: Approval
+    attributes:
+      label: Approver
+      description: Approval required for onboarding in SDR. Please write approve in comment section for approval.
+      placeholder: Please type approved for approving the request
+      value: "@TCB Group"
+    validations:
+      required: true
