@@ -1,0 +1,40 @@
+name: TechSupport
+description: A form for requesting technical support on SDR including code, documentation etc.
+title: "[TechSupport]:"
+labels: ["SupportQuery"]
+assignees:
+  - SushmitabSinha
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this Tech Support!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-type
+    attributes:
+      label: Technical Support Details
+      description: Tell us the details of the incident!
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Choose the option
+      description: Whether API, UI or Infra
+      options:
+        - UI
+        - API
+        - Infra
+        - Documents
+        - Access
+    validations:
+      required: true
