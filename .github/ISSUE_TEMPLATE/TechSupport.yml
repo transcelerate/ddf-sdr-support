@@ -1,7 +1,7 @@
 name: TechSupport
 description: A form for requesting technical support on SDR including code, documentation etc.
 title: "[TechSupport]:"
-labels: ["SupportQuery"]
+labels: ["techSupport"]
 assignees:
   - SushmitabSinha
 body:
