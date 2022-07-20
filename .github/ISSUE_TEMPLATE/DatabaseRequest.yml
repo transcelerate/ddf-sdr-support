@@ -1,0 +1,19 @@
+name: DatabaseRequest
+description: A request form for data operational and maintenance requests (e.g., load, delete, and reload data) into the SDR Shared environment.
+title: "[DatabaseRequest]:"
+labels: ["dataSupport"]
+assignees:
+  - InduSekharSajja
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to create a DatabaseRequest!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description 
+      description: Description or reference to the story that must work for this work to be considered complete.Please select label among API, UI, Infra, Documentation, Testing, Database (on or more) in addition to story label.
+      placeholder: Please provide description
+    validations:
+      required: true
