@@ -1,0 +1,28 @@
+name: AccessRevocation-DisableRequest
+description: A revocation form to disable access the SDR shared environment.
+title: "[AccessRevocationt]:"
+labels: ["accessRequest"]
+assignees:
+  - InduSekharSajja
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this access revocation form!
+  - type: input
+    id: UserName
+    attributes:
+      label: Email ID
+      description: Provide user email id.
+      placeholder: example- user@xyz.com
+    validations:
+      required: true
+  - type: textarea
+    id: AdditionalComments
+    attributes:
+      label: Additional Comments 
+      description: Please add any additional comments if required.
+      placeholder: Please provide comments if required
+    validations:
+      required: false
+  
