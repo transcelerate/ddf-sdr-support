@@ -3,7 +3,7 @@ description: An issue that is causing downtime to the SDR environment for single
 title: "[Incident]: "
 labels: ["incident"]
 assignees:
-  - SushmitabSinha
+  - InduSekharSajja
 body:
   - type: markdown
     attributes:
