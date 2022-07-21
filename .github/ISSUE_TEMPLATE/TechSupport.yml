@@ -3,7 +3,7 @@ description: A form for requesting technical support on SDR including code, docu
 title: "[TechSupport]:"
 labels: ["techSupport"]
 assignees:
-  - SushmitabSinha
+  - InduSekharSajja
 body:
   - type: markdown
     attributes:
