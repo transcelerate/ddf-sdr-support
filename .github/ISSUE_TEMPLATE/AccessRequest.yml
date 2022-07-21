@@ -16,7 +16,7 @@ body:
       description: Provide user email id.
       placeholder: example- user@xyz.com
     validations:
-      required: true
+      required: false
   - type: input
     id: CompanyName
     attributes:
