@@ -40,7 +40,7 @@ body:
       label: Mail Trigger
       description: This will trigger a mail to Support Team. You can mention anyone with @username.
       placeholder: Notify the Support Team.
-      value: "@Migration-Sample/sdr-support"
+      value: "@sdr-support"
     validations:
       required: true
  
