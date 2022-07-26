@@ -15,6 +15,7 @@ body:
       label: Email ID
       description: Provide user email id.
       placeholder: example- user@xyz.com
+      render : false
     validations:
       required: false
   - type: input
