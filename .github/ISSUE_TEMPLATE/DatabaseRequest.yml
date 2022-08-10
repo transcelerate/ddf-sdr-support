@@ -3,12 +3,22 @@ description: A request form for data operational and maintenance requests (e.g.,
 title: "[DatabaseRequest]:"
 labels: ["dataSupport"]
 assignees:
-  - InduSekharSajja
+  - sdr-support
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to create a DatabaseRequest!
+  - type: dropdown
+    id: type
+    attributes:
+      label: Environment
+      description: Which environment are you requesting access for?
+      options:
+        - Sandbox
+        - Demo
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
