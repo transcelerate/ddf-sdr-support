@@ -44,11 +44,11 @@ body:
 #     validations:
 #       required: true
   - type: textarea
-    id: defaulttag
+    id: Additional-Comments
     attributes:
-      label: Mail Trigger
-      description: This will trigger a mail to Support Team. You can mention anyone with @username.
-      placeholder: Notify the Support Team.
-      value: "@sdr-support"
+      label: Additional Comments
+      description: Any additional comments or attachments.
+      placeholder: Comments!
     validations:
-      required: true
+      required: false 
+     
