@@ -28,11 +28,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Request Details
+    id: RequestDetails
     attributes:
-      label: Additional Comments 
-      description: Please add any additional comments if required.
-      placeholder: Please provide comments if required
+      label: Request Details
+      description: Please provide request details.
+      placeholder: Please provide request details.
     validations:
       required: false
   
