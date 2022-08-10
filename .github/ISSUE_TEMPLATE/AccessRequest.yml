@@ -3,7 +3,7 @@ description: A request form to access the SDR shared environment. This issue req
 title: "[AccessRequest]:"
 labels: ["accessRequest"]
 assignees:
-  - InduSekharSajja
+  - sdr-support
 body:
   - type: markdown
     attributes:
