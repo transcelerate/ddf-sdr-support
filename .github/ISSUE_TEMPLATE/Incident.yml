@@ -39,7 +39,7 @@ body:
     id: defaulttag
     attributes:
       label: Mail Trigger
-      description: Add any additional users who may want to be notified this issue. 
+      description: Add any additional users who may want to be notified regarding this issue. 
       placeholder: Add any users to be notified e.g.@username.
     validations:
       required: false
