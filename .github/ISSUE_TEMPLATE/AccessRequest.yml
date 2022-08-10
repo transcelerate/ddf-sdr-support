@@ -12,11 +12,10 @@ body:
   - type: input
     id: UserName
     attributes:
-      label: Email ID
-      description: Provide user email id.
-      placeholder: example- user@xyz.com
+      label: Full Name
+      description: Provide Full Name of user
     validations:
-      required: false
+      required: true
   - type: input
     id: CompanyName
     attributes:
@@ -26,21 +25,30 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: Type_of_Access
+    id: type
     attributes:
-      label: What type of access?
-      description: Type of access needed for the user in SDR
+      label: Environment
+      description: Which environment are you requesting access for?
       options:
-        - SDR UI Access
-        - SDR API Access
+        - Sandbox
+        - Demo
     validations:
       required: true
-  - type: input
-    id: Approval
+#   - type: input
+#     id: Approval
+#     attributes:
+#       label: Approver
+#       description: Approval required for onboarding in SDR. Please write approve in comment section for approval.
+#       placeholder: Please type approved for approving the request
+#       value: "@TCB Group"
+#     validations:
+#       required: true
+  - type: textarea
+    id: defaulttag
     attributes:
-      label: Approver
-      description: Approval required for onboarding in SDR. Please write approve in comment section for approval.
-      placeholder: Please type approved for approving the request
-      value: "@TCB Group"
+      label: Mail Trigger
+      description: This will trigger a mail to Support Team. You can mention anyone with @username.
+      placeholder: Notify the Support Team.
+      value: "@sdr-support"
     validations:
       required: true
