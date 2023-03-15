@@ -19,7 +19,7 @@ The SDR Data Model now conforms to USDM version V1.0 and V1.9. V1.9 includes Bio
 - USDM Versioning – Study definitions based on USDM (Version 1.0 & 1.9) released by CDISC as part of Digital Data Flow - Phase 1 & 2 are now supported in SDR.
 - Version specific API Endpoints -  Study USDM version specific endpoints will allow users to create studies conforming to a specific version (1 major and any related minor versions) of USDM and validate the study against conformance rules corresponding to that version.
 - Change Audit Log - Each change submitted to SDR is tracked by the Change Audit feature built into SDR. The Http trigger will capture details of elements changed in the POST and PUT requests into a separate collection.
-- Common Protocol Template (CPT) Export API - A new endpoint has been created to export study details mapped to limited set of CPT Variables grouped by sections of Common Protocol Template. Mapping Sheet from SDR fields to CPT variables is available [here](USDM-CPT%20Mapping%20Sheet.xlsx)
+- Common Protocol Template (CPT) Export API - A new endpoint has been created to export study details mapped to limited set of CPT Variables grouped by sections of Common Protocol Template. Mapping Sheet from SDR fields to CPT variables is available [here](usdm-cpt-mapping-sheet.xlsx)
 
 #### SDR UI
 - Certificate-based authentication removed - Users can now access SDR UI without the need to install a valid client certificate.
