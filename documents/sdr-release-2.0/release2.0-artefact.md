@@ -8,7 +8,7 @@ The below is the list of artefacts summarizing the list of changes in SDR to sup
 - [USDM V1.9 Study JSON](ddf-sdr-sample-json(usdm-v1.9).json) (_Latest_)
 
 ### Summary of USDM Changes (Changelog from USDM V1.0 to V1.9)
-Refer to this [worksheet]() to get list of changes on the USDM including updates to Conformance Rule.
+Refer to this [worksheet](usdm-v1.9-model-changes-conformance-rules.xlsx) to get list of changes on the USDM including updates to Conformance Rule.
 
 ### SDR Feature Updates
 #### SDR Data Model Changes
