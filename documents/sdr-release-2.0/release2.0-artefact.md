@@ -32,7 +32,7 @@ The SDR Data Model now conforms to USDM version V1.0 and V1.9. V1.9 includes Bio
 
 ### SDR API Endpoints
 [SDR API Endpoints](ddf-sdr-api-list-of-routes.xlsx) worksheet lists the active API Endpoints on the SDR added/modified as a part of SDR Release V2.0.
-> **Note**:The usdmVersion is now a mandatory header parameter for all version-specific endpoints in addition to the authentication token in the HTTP request.
+> **Note**:The usdmVersion is now a mandatory header parameter for all version-specific endpoints in addition to the authentication token and client certificate in the HTTP request.
 
 ### Important Links to Digital Data Flow Program
 - [TransCelerate Digital Data Flow](https://www.transceleratebiopharmainc.com/initiatives/digital-data-flow/)
