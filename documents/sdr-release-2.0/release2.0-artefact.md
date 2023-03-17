@@ -1,6 +1,8 @@
 # Study Definition Repository (SDR) - Release Version 2.0
-
+> **Note**: The contents of this page are intended for users actively participating / intending to participate in the [Digital Data Flow](https://www.transceleratebiopharmainc.com/initiatives/digital-data-flow/) (DDF) initiative. The artefacts provide limited important information on Study Definition Repository (SDR) Reference Implementation - Release V2.0. Complete documentation and other artefacts to be made available after 31st March 2023.
+ 
 The below is the list of artefacts summarizing the list of changes in SDR to support Unified Study Definition Model (USDM) V1.9. It also explains the SDR Features at a high level.
+
 
 ### Sample Study JSON
 - [USDM V1.0 Study JSON](ddf-sdr-sample-json(usdm-v1.0).json)
