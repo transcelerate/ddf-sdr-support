@@ -31,13 +31,4 @@ body:
         - Other
     validations:
       required: true
-  - type: dropdown
-    id: type
-    attributes:
-      label: Environment
-      description: Which environment are you requesting access for?
-      options:
-        - Sandbox
-        - Demo
-    validations:
-      required: false
+ 
