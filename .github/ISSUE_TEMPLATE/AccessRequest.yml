@@ -44,11 +44,21 @@ body:
 #     validations:
 #       required: true
   - type: textarea
-    id: Additional-Comments
+    id: Additional-Comments    
     attributes:
       label: Additional Comments
       description: Any additional comments or attachments.
       placeholder: Comments!
     validations:
       required: false 
-     
+  - type: checkboxes
+    id : DataPrivacy    
+    attributes:
+      label: Terms of Use and Privacy Policy
+      description : <a href="https://transcelerate.github.io/ddf-sdr-support/TermsandCondition.html" target="_blank">Terms of Use and Privacy Policy</a>
+      options:
+        - label: I agree to the Terms of Use and Privacy Policy [Link](https://github.com/Viswesh-Mb/support/blob/main/TermsAndConditions.html)+          
+          required : true          
+    validations:
+      required : true     
+   
