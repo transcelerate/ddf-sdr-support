@@ -1,0 +1,62 @@
+name: AccessRequest
+description: A request form to access the SDR shared environment. This issue requires approval from TransCelerate BioPharma before resolution.
+title: "[AccessRequest]:"
+labels: ["accessRequest"]
+assignees:
+  - sdr-support
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this access request form!
+  - type: input
+    id: UserName
+    attributes:
+      label: Full Name
+      description: Provide Full Name of user
+    validations:
+      required: true
+  - type: input
+    id: CompanyName
+    attributes:
+      label: Company Name
+      description: Provide user company name
+      placeholder: example- xyz
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Environment
+      description: Which environment are you requesting access for?
+      options:
+        - Demo
+    validations:
+      required: true
+#   - type: input
+#     id: Approval
+#     attributes:
+#       label: Approver
+#       description: Approval required for onboarding in SDR. Please write approve in comment section for approval.
+#       placeholder: Please type approved for approving the request
+#       value: "@TCB Group"
+#     validations:
+#       required: true
+  - type: textarea
+    id: Additional-Comments    
+    attributes:
+      label: Additional Comments
+      description: Any additional comments or attachments.
+      placeholder: Comments!
+    validations:
+      required: false 
+  - type: checkboxes
+    id : DataPrivacy    
+    attributes:
+      label: Terms of Use and Privacy Policy
+      options:
+        - label: I agree to the [Terms of Use and Privacy Policy](https://transcelerate.github.io/ddf-sdr-support/TermsandCondition.html).     
+          required : true          
+    validations:
+      required : true     
+   
