@@ -43,20 +43,11 @@ body:
 #     validations:
 #       required: true
   - type: textarea
-    id: Additional-Comments    
+    id: Additional-Comments
     attributes:
       label: Additional Comments
       description: Any additional comments or attachments.
       placeholder: Comments!
     validations:
       required: false 
-  - type: checkboxes
-    id : DataPrivacy    
-    attributes:
-      label: Terms of Use and Privacy Policy
-      options:
-        - label: I agree to the [Terms of Use and Privacy Policy](https://transcelerate.github.io/ddf-sdr-support/TermsandCondition.html).     
-          required : true          
-    validations:
-      required : true     
-   
+     
