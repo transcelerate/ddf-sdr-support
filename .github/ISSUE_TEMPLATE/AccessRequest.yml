@@ -30,7 +30,6 @@ body:
       label: Environment
       description: Which environment are you requesting access for?
       options:
-        - Sandbox
         - Demo
     validations:
       required: true
