@@ -25,7 +25,7 @@ This repository provides a channel for support to participants interested in exp
 
 ## Vendor Enablement for SDR RI Demo Environment
 A running instance of the SDR Reference Implementation is currently hosted for demonstration purposes only. Interested participants on the DDF program can connect to this instance to store and retrieve study definitions, **scrubbed / non-production data only**, conforming to the CDISC USDM V1.9 and V1.0. 
-The [vendor enablement document](documents/sdr-release-v2.0/ddf-sdr-ri-vendor-enablement.pdf) provides information on how-to-connect to SDR Demo Environment. Additionally, it provides links to all important documentation supporting the SDR RI.
+The [vendor enablement document](documents/sdr-release-v2.0/ddf-sdr-ri-vendor-enablement-v1.1.pdf) provides information on how-to-connect to SDR Demo Environment. Additionally, it provides links to all important documentation supporting the SDR RI.
 
 
 
