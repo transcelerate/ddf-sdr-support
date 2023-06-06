@@ -1,6 +1,5 @@
 - [Introduction](#introduction)
 - [DDF SDR Support](#ddf-sdr-support)
-- [Vendor Enablement for SDR Demo Environment](#vendor-enablement-for-sdr-ri-demo-environment)
 
 
 # Introduction
@@ -20,11 +19,3 @@ This repository provides a channel for support to participants interested in exp
 - [Raise Incident](https://github.com/transcelerate/ddf-sdr-support/issues/new?assignees=sdr-support&labels=incident&template=Incident.yml&title=%5BIncident%5D%3A+) faced in the SDR RI Demo Environment
 - [Ad-hoc Database Request](https://github.com/transcelerate/ddf-sdr-support/issues/new?assignees=sdr-support&labels=dataSupport&template=DatabaseRequest.yml&title=%5BDatabaseRequest%5D%3A) for editing / deleting data in SDR RI Demo environment.
 - For any other support on DDF SDR RI, reach out to [SDR.Support@accenture.com](mailto:sdr.support@accenture.com)
-
-## Vendor Enablement for SDR RI Demo Environment
-A running instance of the SDR Reference Implementation is currently hosted for demonstration purposes only. Interested participants on the DDF program can connect to this instance to store and retrieve study definitions, **scrubbed / non-production data only**, conforming to the CDISC USDM V1.9 and V1.0. 
-The [vendor enablement document](documents/sdr-release-v2.0/ddf-sdr-ri-vendor-enablement-v1.2.pdf) provides information on how-to-connect to SDR Demo Environment. Additionally, it provides links to all important documentation supporting the SDR RI.
-
-
-
-
